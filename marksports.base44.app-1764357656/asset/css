@@ -1,17 +1,1 @@
-/* Remove watermark element(s) fix */
-.watermark,
-#watermark,
-.footer-watermark,
-[data-watermark],
-img.watermark,
-img[src*="watermark"] {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-}
 
-body::after,
-body::before {
-  display: none !important;
-  content: none !important;
-}
